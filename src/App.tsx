@@ -13,6 +13,8 @@ function App() {
     setSearchInput(input);
   };
 
+  console.log(searchInput);
+
   return (
     <div className="flex flex-col items-center">
       {/* Navigation Bar */}
