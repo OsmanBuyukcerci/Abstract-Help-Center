@@ -1,14 +1,14 @@
 const Footer = () => {
   return (
     <div className="bg-black w-full flex items-center justify-center">
-      <div className="grid grid-cols-4 items-start relative w-full md:w-5/6 p-8  bg-black text-white">
-        <div className="flex flex-col">
+      <div className="flex flex-col lg:grid lg:grid-cols-4 items-start relative w-full md:w-5/6 p-8  bg-black text-white">
+        <div className="flex gap-2 lg:flex-col">
           <span className="font-bold">Abstract</span>
           <a className="font-extralight" href="#">
             Branches
           </a>
         </div>
-        <div className="flex flex-col">
+        <div className="flex gap-2 lg:flex-col">
           <span className="font-bold">Resources</span>
           <a className="font-extralight" href="#">
             Blog
@@ -23,7 +23,7 @@ const Footer = () => {
             Blog
           </a>
         </div>
-        <div className="flex flex-col">
+        <div className="flex gap-2 lg:flex-col">
           <span className="font-bold">Community</span>
           <a className="font-extralight" href="#">
             Twitter
@@ -42,16 +42,18 @@ const Footer = () => {
           </a>
         </div>
         <div className="flex flex-col">
-          <span className="font-bold">Company</span>
-          <a className="font-extralight" href="#">
-            About Us
-          </a>{" "}
-          <a className="font-extralight" href="#">
-            Careers
-          </a>{" "}
-          <a className="font-extralight" href="#">
-            Legal
-          </a>
+          <div className="flex gap-2">
+            <span className="font-bold">Company</span>
+            <a className="font-extralight" href="#">
+              About Us
+            </a>{" "}
+            <a className="font-extralight" href="#">
+              Careers
+            </a>{" "}
+            <a className="font-extralight" href="#">
+              Legal
+            </a>
+          </div>
           <p className="mt-4">
             <span className="font-semibold">Contact Us</span>
             <p className="font-extralight">info@abstract.com</p>

@@ -3,7 +3,7 @@ const NavBar = () => {
     <div className="flex relative items-center w-full h-20 bg-black text-white text-lg font-semibold">
       <a
         href="#"
-        className="flex items-center gap-2 absolute start-2 sm:start-5 lg:start-20"
+        className="flex items-center gap-2 absolute text-center sm:start-5 md:start-5 lg:start-20"
       >
         {/* Logo */}
         <svg
@@ -20,7 +20,7 @@ const NavBar = () => {
       </a>
 
       {/* Buttons */}
-      <div className="buttons flex gap-2 lg:gap-4 absolute end-2 sm:end-5 lg:end-20">
+      <div className="buttons invisible sm:visible flex md:gap-2 lg:gap-4 absolute end-2 sm:end-5 lg:end-20">
         <button className="bg-black hover:bg-lpurple hover:text-black border-white border-2 rounded-lg px-4 sm:px-6 py-2">
           Submit a request
         </button>

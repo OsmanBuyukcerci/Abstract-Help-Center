@@ -8,12 +8,14 @@ const InputField = ({ handleClick }: InputFieldProps) => {
   const [searchInput, setSearchInput] = useState("");
   return (
     <div className="flex flex-col gap-4 lg:gap-8 items-center justify-center w-full h-60 bg-lpurple">
-      <div className="text-5xl lg:text-6xl font-medium">How can we help?</div>
+      <div className="text-3xl sm:text-5xl md:text-6xl font-medium">
+        How can we help?
+      </div>
 
       {/* Input */}
       <div className="flex border-2 border-lpurple shadow-sm">
         <input
-          className="p-2 w-96 sm:w-[30rem] h-12 rounded-l-lg "
+          className="p-2 w-auto sm:w-[30rem] h-12 rounded-l-lg "
           type="search"
           placeholder="Search"
           onChange={(e) => {
