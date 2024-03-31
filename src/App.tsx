@@ -16,7 +16,7 @@ function App() {
   console.log(searchInput);
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center overflow-hidden">
       {/* Navigation Bar */}
       <NavBar />
 
